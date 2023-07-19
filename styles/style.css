@@ -1,0 +1,128 @@
+/* Works Sans Font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header Styles */
+
+header {
+  background: white;
+  /* padding: 50px 240px; */
+  padding: 2% 12%;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 37px;
+  font-weight: 700;
+  color: #0b0223;
+  display: flex;
+}
+
+#space {
+  margin-right: 8%;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav li {
+  list-style: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #3c354f;
+}
+
+#follow-button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+
+#follow-button-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Banner-styles */
+.firstsection {
+    margin: 0% 12%;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-image {
+  width: 500px;
+}
+
+.banner-title {
+  color: #0b0223;
+  font-size: 2.313rem;
+  font-weight: 600;
+  margin-bottom: 0%;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title2 {
+  font-size: 4.438rem;
+  font-weight: 800;
+  margin-top: 0%;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-paragraph {
+    margin-bottom: 10%;
+}
+
+.banner-paragraph > ul > li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.banner-paragraph > ul > li > span {
+    margin-right: 10px;
+}
+
+.sign,
+.rogue {
+  padding: 21px 40px 21px 40px;
+  border: none;
+  border-radius: 45px;
+  color: white;
+  font-weight: bolder;
+}
+.sign {
+  background-color: rgb(252, 15, 252);
+}
+
+.rogue {
+  background-color: rgba(78, 197, 247, 1);
+} 
