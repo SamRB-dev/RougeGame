@@ -126,9 +126,9 @@ nav li a {
   background-color: rgba(78, 197, 247, 1);
 }
 
-
-#secondsection {
-    margin: 4% 12%;
+#secondsection,
+#third {
+  margin: 4% 12%;
 }
 
 .we-are-gamer {
@@ -156,8 +156,8 @@ nav li a {
 }
 
 .we-are-gamer > h4 {
-    color: #534C64;
-    font-size: 1.5rem;
+  color: #534c64;
+  font-size: 1.5rem;
 }
 
 .container {
@@ -168,4 +168,51 @@ nav li a {
 
 .gamer-image {
   width: 578px;
+}
+
+.third-container > h2,
+h4 {
+  text-align: center;
+}
+
+.third-container > h2 {
+  font-size: 2.3rem;
+  margin: 15px 0px;
+  font-weight: 700;
+}
+
+.third-container > h2 > span {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.third-container > h4 {
+    font-weight: 100;
+    opacity: 0.6;
+}
+
+.third-cards {
+    display: flex;
+    gap: 25px;
+    margin: 5% 0%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards > img {
+    width: 240px;
+}
+
+.cards img:hover {
+    filter:brightness(40%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; 
 }
