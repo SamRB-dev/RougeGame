@@ -358,6 +358,10 @@ footer > p {
     gap: 100px;
   }
 
+  .banner-image {
+    width: 100%;
+  }
+
   #secondsection > .container {
     flex-direction: column-reverse;
   }
@@ -370,6 +374,11 @@ footer > p {
     text-align: center;
   }
 
+
+  .gamer-image {
+    width: 100%;
+    margin-bottom: 10%;
+  }
   .third-cards {
     flex-direction: column;
   }
