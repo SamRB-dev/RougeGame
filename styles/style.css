@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-main {
+body {
   background: linear-gradient(
     90deg,
     rgba(255, 66, 165, 0.03) 0%,
@@ -118,7 +118,8 @@ nav li a {
 
 .sign,
 .rogue {
-  padding: 21px 40px 21px 40px;
+  /* padding: 21px 40px 21px 40px; */
+  padding: 18px 28px;
   border: none;
   border-radius: 45px;
   color: white;
@@ -135,7 +136,7 @@ nav li a {
 #secondsection,
 #third,
 #gametypes {
-  margin: 4% 12%;
+  margin: 12% 12%;
 }
 
 .we-are-gamer {
@@ -165,6 +166,7 @@ nav li a {
 .we-are-gamer > h4 {
   color: #534c64;
   font-size: 1.5rem;
+  text-align: right;
 }
 
 .container {
@@ -195,9 +197,10 @@ h4 {
   -webkit-text-fill-color: transparent;
 }
 
-.third-container > h4 {
+.third-container > h4, .cards > h4 {
   font-weight: 100;
   opacity: 0.6;
+  font-size: 0.8rem;
 }
 
 .third-cards {
@@ -330,4 +333,67 @@ footer > p {
   color: white;
   text-align: center;
   opacity: 0.5;
+}
+
+/* Media Query */
+@media only screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .nav-title {
+    margin: 8% 0%;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+
+  #secondsection, #third, #gametypes {
+    margin: 10% 12%;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+
+  #secondsection > .container {
+    flex-direction: column-reverse;
+  }
+
+  .we-are-gamer {
+    text-align: center;
+  }
+
+  .we-are-gamer > h4 {
+    text-align: center;
+  }
+
+  .third-cards {
+    flex-direction: column;
+  }
+
+  .third-container > h2 {
+    font-size: 1.8rem;
+  }
+
+  .game-type {
+    row-gap: 0px;
+    column-gap: 10px;
+    height: 18px;
+  }
+
+  .game-type > h3 {
+    font-size: 0.6rem;
+  }
+
+  .game-type > img {
+    width: 20px;
+  }
+
+  .type-container {
+    row-gap: 25px;
+    column-gap: 7px;
+  }
 }
